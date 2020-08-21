@@ -16,11 +16,16 @@
   text-decoration: none;
   }
   
-  a:hover {
+    
+  .button {
+   padding-left: 5px;
+   padding-right: 5px;
+  
+  .button a:hover {
   background-color: #123C69;
   color: white;
   }
-  
+
   
   
   .carousel-inner {
