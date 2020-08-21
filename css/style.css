@@ -1,7 +1,7 @@
 
 
  body {
-  background-color: #D4A95A;
+  background-color: #628078;
 }
 
 .header {
@@ -12,6 +12,10 @@
  h1 {
    color: #D4A95A;
  }
+
+ h4 {
+   color: #D4A95A;
+   }
   
 .box {
   width: 15%;
@@ -36,4 +40,10 @@
 
 .box_container:hover .middle {
   opacity: 1;
+}
+
+.footer {
+  background-color: #628078;
+  padding: 20px;
+  margin-top: 90%;
 }
