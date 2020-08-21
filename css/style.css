@@ -1,4 +1,4 @@
-  @import url ("https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css");
+
 
   body { 
   background-color: #EEE2DC;
@@ -8,12 +8,8 @@
     height: 100%;
   }
   
-  .jumbotron {
-  background-color: #AC3B61;
-  color: #EEE2DC;
-  }
   
-  a {
+  h1, a {
   color: #EEE2DC;
   text-decoration: none;
   }
