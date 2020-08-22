@@ -49,3 +49,8 @@
   padding: 20px;
   margin-top: 90%;
 }
+
+a {
+text-decoration: none;
+cursor: pointer;
+}
