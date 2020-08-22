@@ -1,22 +1,22 @@
 
 
  body {
-  background-color: #628078;
+  background-color: #EEEEEE;
 }
 
 .header {
-  background-color: #BC4639;
   padding: 20px;
+  background-color: #000;
   }
  
  h1 {
-   color: #D4A95A;
-   font-family: helvetica;
+   color: #5FFF;
+   font-family: arial;
  }
 
  h4 {
-   color: #D4A95A;
-   font-family: helvetica;
+   color: #eeb422;
+   font-family: arial;
    }
   
 .box {
@@ -36,12 +36,16 @@
   background-color: #800020; 
 }
 
+.box:hover .image {
+  opacity: 0.3;
+}
+
+.box_container:hover .middle {
+  opacity: 1;
+}
+
 .footer {
   background-color: #628078;
   padding: 20px;
   margin-top: 90%;
-}
-
-p {
-font-family: tahoma;
 }
