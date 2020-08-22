@@ -11,10 +11,12 @@
  
  h1 {
    color: #D4A95A;
+   font-family: helvetica;
  }
 
  h4 {
    color: #D4A95A;
+   font-family: helvetica;
    }
   
 .box {
@@ -34,16 +36,12 @@
   background-color: #800020; 
 }
 
-.box:hover .image {
-  opacity: 0.3;
-}
-
-.box_container:hover .middle {
-  opacity: 1;
-}
-
 .footer {
   background-color: #628078;
   padding: 20px;
   margin-top: 90%;
+}
+
+p {
+font-family: tahoma;
 }
