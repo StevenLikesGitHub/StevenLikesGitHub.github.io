@@ -6,19 +6,17 @@
 
 .header {
   padding: 20px;
-  background-color: #000;
+  background-color: #000000;
   }
  
  h1 {
    color: #5FFF;
    font-family: arial;
-   float: right;
  }
 
  h4 {
    color: #eeb422;
    font-family: arial;
-   float: right;
    }
   
 .box {
@@ -51,7 +49,7 @@
   padding: 20px;
 }
 
-.footer > p {
+#footer > p {
 color: white;
 }
 
@@ -87,3 +85,6 @@ cursor: pointer;
   color: white;
 }
 
+.mySlides {
+display:none;
+}
