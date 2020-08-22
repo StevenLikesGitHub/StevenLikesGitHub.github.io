@@ -6,7 +6,7 @@
 
 .header {
   padding: 20px;
-  background-img: url ("miles-davis.jpg");
+  background-color: #000;
   }
  
  h1 {
@@ -51,7 +51,39 @@
   padding: 20px;
 }
 
+.footer > p {
+color: white;
+}
+
 a {
 text-decoration: none;
 cursor: pointer;
 }
+
+#page-container {
+  position: relative;
+}
+
+#content-wrap {
+  padding-bottom: 2.0rem;    
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.0rem;           
+}
+
+.imgtext {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.imgcontainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
