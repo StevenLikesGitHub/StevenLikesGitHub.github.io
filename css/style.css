@@ -111,10 +111,3 @@ display:none;
 #float {
     float: left;
 }
-
-h5 {
-        font-size: medium;
-	font-family: Tahoma, Geneva, sans-serif;
-        text-align: center;	
-	margin: 25px 0;
-}
