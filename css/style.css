@@ -104,3 +104,10 @@ cursor: pointer;
 .mySlides {
 display:none;
 }
+
+#containment {
+    width: 467px;
+}
+#float {
+    float: left;
+}
