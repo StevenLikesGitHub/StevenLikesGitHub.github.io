@@ -43,6 +43,10 @@
   background-color: #000; 
 }
 
+.center {
+align: center;
+}
+
 .box:hover .image {
   opacity: 0.3;
 }
