@@ -112,7 +112,10 @@ display:none;
     float: left;
 }
 
-.cursive h1 {
+.cursive {
 font-family: cursive;
+}
+
+.title h1 {
 text-align: center;
 }
