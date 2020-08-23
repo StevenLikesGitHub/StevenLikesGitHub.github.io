@@ -25,6 +25,11 @@
  h3 {
    text-align: center;
    }
+
+.wrap {
+  float: left;
+  margin-left: 2.5cm;
+  }
   
 .box {
   width: 15%;
