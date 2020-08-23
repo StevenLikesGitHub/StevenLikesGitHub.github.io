@@ -113,10 +113,8 @@ display:none;
 }
 
 h6 {
-        font-size: 2em;
+        font-size: medium;
 	font-family: Tahoma, Geneva, sans-serif;
-	font-weight: normal;
-	padding-bottom: 4px;
         text-align: center;	
 	margin: 25px 0;
 }
