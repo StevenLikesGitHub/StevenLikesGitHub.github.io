@@ -37,8 +37,41 @@ Musicians and Their Legacies
   </div>
 
   <div class="w3-container w3-cell">
-   <p class="w3-animate-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
+   <button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-black w3-left-align">About</button>
+<div id="Demo1" class="w3-container w3-hide">
+  <h4>About</h4>
+  <p>Some text..</p>
+</div>
+<div class="w3-container w3-cell">
+   <button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-black w3-left-align">Notable Albums</button>
+<div id="Demo1" class="w3-container w3-hide">
+  <h4>Notable Albums/h4>
+  <ul>
+  <li>The Brecker Bros. (1975)</li>
+  <li>Back-to-Back (1976)</li>
+  <li>Don't Stop the Music (1977)</li>
+  <li>Heavy Metal Bebop (1978)</li>
+  </ul>
+</div>
+<div class="w3-container w3-cell">
+   <button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-black w3-left-align">Links</button>
+<div id="Demo1" class="w3-container w3-hide">
+  <h4>Links</h4>
+   <a href="https://www.youtube.com/channel/UC7AdsdzX1fj3W5sNChr9yDg" target="_blank" class="w3-bar-item w3-button">YouTube</a>
+   <a href="https://en.wikipedia.org/wiki/Randy_Brecker" target="_blank" class="w3-bar-item w3-button">Wikipedia</a>
+   <a href="https://twitter.com/search?q=%23randybrecker&src=typed_query" target="_blank" class="w3-bar-item w3-button">Twitter</a>
+</div>
+</div>
+<script>
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
 
 </div>
 </div>
