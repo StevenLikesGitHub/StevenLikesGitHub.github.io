@@ -8,13 +8,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<div class="w3-sidebar w3-black w3-bar-block" style="width:25%">
+<div class="w3-teal">
+  <button id="openNav" class="w3-button w3-black w3-medium" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
   <h3 class="w3-bar-item">More From Randy Brecker</h3>
   <a href="https://www.youtube.com/channel/UC7AdsdzX1fj3W5sNChr9yDg" target="_blank" class="w3-bar-item w3-button">YouTube</a>
   <a href="https://en.wikipedia.org/wiki/Randy_Brecker" target="_blank" class="w3-bar-item w3-button">Wikipedia</a>
   <a href="https://twitter.com/search?q=%23randybrecker&src=typed_query" target="_blank" class="w3-bar-item w3-button">Twitter</a>
 </div>
-<div style="margin-left: 25%;">
+</div>
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
 <div class="header">
 <h1 style="font-family: cursive;">
 Jazz Stories
