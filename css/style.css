@@ -111,3 +111,8 @@ display:none;
 #float {
     float: left;
 }
+
+.cursive h1 {
+font-family: cursive;
+text-align: center;
+}
