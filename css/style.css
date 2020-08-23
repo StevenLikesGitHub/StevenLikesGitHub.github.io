@@ -124,8 +124,10 @@ text-align: center;
 .menu {
 margin-left: 20%;
 }
+}
 
 @media screen and (max-width: 600px) {
 .menu {
 margin-left: 10%;
+}
 }
