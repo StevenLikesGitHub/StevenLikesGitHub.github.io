@@ -122,12 +122,12 @@ text-align: center;
 
 @media screen and (max-width: 900px) {
 .menu {
-margin-left: 20%;
+margin-left: 5%;
 }
 }
 
 @media screen and (max-width: 600px) {
 .menu {
-margin-left: 10%;
+margin-left: 0%;
 }
 }
