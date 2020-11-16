@@ -1,42 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Jazz Stories</title>
-  <link rel="stylesheet" href="https://stevenlikesgithub.github.io/css/style.css">
+  <title>ICT 4515 Project</title>
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    
 </head>
 <body>
-<div class="header">
+<div class="w3-container w3-black">
 <h1>
 Digital Repository of African American Soldiers and their families
 </h1>
 </div>
-<div class="w3-bar menu">
-  <a class="w3-bar-item w3-button">About Us</a>
-  <a class="w3-bar-item w3-button">Contact Us</a>
-  <div class="w3-dropdown-hover">
-    <button class="w3-button">The Repository</button>
-    <div class="w3-dropdown-content w3-bar-block w3-card-4">
-      <a href="index.html" class="w3-bar-item w3-button">Meet the Soldiers</a>
-      <a href="index.html" class="w3-bar-item w3-button">View the Course Materials</a>
-      <a href="index.html" class="w3-bar-item w3-button">Read the Narrative</a>
-    </div>
-  </div>
+<div class="w3-container w3-black;">
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <a href="#repository">Repository</a>
+  <input type="text" placeholder="Search..">
 </div>
-<hr>
+</div>
+<div class="w3-container light-green">
 <h3>Featured Veterans</h3>
-<div class="w3-content w3-display-container">
-  <img class="mySlides" src="img/JosephHairston.jpg" style="width:100%">
-  <img class="mySlides" src="img/miles-davis-01.jpg" style="width:100%">
-
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-</div>
-
-<script>
+<div class="w3-display-container mySlides">
+  <img src="hairston.jpg" alt="photo of joseph hairston and Athenaeum press students Steven Sargent, Leann Ford, and Derek Barthiaume" style="width:100%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+    Joseph Hairston
+  </div>
+</div><script>
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -50,44 +43,36 @@ function showDivs(n) {
   if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
+     x[i].style.display = "none";  
   }
   x[slideIndex-1].style.display = "block";  
 }
 </script>
-
-<hr>
-<h2 style="text-align: center; font-family: cursive;">
-Meet the Musicians
-</h2>
-<div class="margin-left: 2cm;">
-<div class="w3-row-padding">
-<a href="index.html">
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/img/buffaloSoldiers.jpg" alt="buffalo Soldiers" width="300px" href="index.html" class="w3-hover-grayscale">
+<div class="w3-panel w3-leftbar light-green">
+  <p class="w3-xlarge w3-serif">
+  <i>"It's when you tell me I can't do something that I know I have to do it."</i></p>
+  <p>Joseph Hairston</p>
+</div>
+</div>
+</div>
+   <div class="w3-row">
+    <button class="w3-col m4 w3-card grey button w3-ripple" style="cursor: pointer;">
+      <img src="buffaloSoldiers.jpg" alt="white captain of 92nd division talking to troops at Fort Huachuca" style="width:100%">
         <h5>Meet the Soldiers</h5>
-</a>
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-<a href="index.html">
-      <img src="/img/92badge.png" alt="course materials" width="300px" href="index.html" class="w3-hover-grayscale">
-        <h5>Course Materials<h5>
-</a>
-    </div>
-    <div class="w3-third w3-container">
-<a href="index.html">
-      <img src="/img/92wwii.jpg" alt="narrative" width="300px" class="w3-hover-grayscale">
+   </button>
+
+  <button class="w3-col m4 w3-card grey button w3-ripple" style="cursor: pointer;">
+      <img src="92division.jpg" alt="92nd division troops walking through italy during the po valley campaign" style="width:100%">
+        <h5>Course Materials</h5>
+   </button>
+
+ <button class="w3-col m4 w3-card grey button w3-ripple" style="cursor: pointer;">
+      <img src="92wwii.jpg" alt="photo of soldiers training at fort huachuca" style="width:100%">
         <h5>Read the Narrative</h5>
-</a>
-      </div>
-    </div>
+  </button>
 </div>
-  <div class="footer">
-<div id="page-container">
-   <div id="content-wrap">
-   </div>
-   <footer id="footer"><p>Designed by Steven Sargent</p></footer>
- </div>
-</div>
+<footer class="w3-container">
+      <h5 style="color: white;">Designed by Steven Sargent</h5>
+    </footer>
 </body>
 </html>
