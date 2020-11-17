@@ -84,3 +84,15 @@ background-color: #CCCC99;
 .w3-bar {
 align: center;
 }
+
+.grid-container {
+  display: grid;
+  padding: 10px;
+  grid-gap: 10px;
+  grid-template: 300px / auto auto auto;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+}
